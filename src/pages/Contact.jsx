@@ -255,19 +255,28 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Map Section */}
+
+{/* Map Section */}
         <div className="mt-16">
-          <div className="bg-white rounded-xl shadow-md p-6">
-            <h2 className="text-2xl font-semibold mb-6">Find Us</h2>
-            <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-              <div className="text-center text-gray-500">
-                <MapPin className="w-12 h-12 mx-auto mb-2" />
-                <p>Interactive map would be integrated here</p>
-                <p className="text-sm">Mbeya County, Tanzania</p>
-              </div>
-            </div>
+           <div className="bg-white rounded-xl shadow-md p-6">
+            <div className="flex lg:flex-cols-2 justify-center items-center gap-4 mb-2">
+                 <h2 className="text-2xl font-semibold">Find Us</h2>
+                 <h1 className="text-xl text-green-500 ">Near by mbarali kkt</h1>
+                 </div>
+                   <div className="bg-gray-200 rounded-lg overflow-hidden h-64">
+       <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15776.76529646343!2d34.30950872331855!3d-8.673347711990866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19aaa567d541f8ed%3A0xb2d66cb11ffd7e20!2sUbaruku!5e0!3m2!1sen!2stz!4v1756705493223!5m2!1sen!2stz"
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="Farm Location"
+      ></iframe>
           </div>
         </div>
+       </div>
       </div>
     </div>
   );
