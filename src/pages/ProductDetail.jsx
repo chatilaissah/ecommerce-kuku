@@ -288,7 +288,7 @@ const ProductDetail = () => {
             <div className="space-y-3 text-sm">
               <div className="flex justify-between">
                 <span className="text-gray-600">Delivery Area:</span>
-                <span className="font-medium">Dar es salaam</span>
+                <span className="font-medium">Ubaruku</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-600">Delivery Time:</span>
